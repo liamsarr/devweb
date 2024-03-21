@@ -1,0 +1,190 @@
+.image1{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    box-shadow: 10px 10px 10px -3px;
+}
+
+@media screen and (max-width:414px){
+    .image1{
+        width: 100px;
+        height: 100px;
+        border-radius:50% ;
+        box-shadow: 10px 10px 10px -3px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1000px) 
+{
+    .image1{
+        width: 150px;
+        height: 150px;
+        border-radius:50% ;
+        box-shadow: 10px 10px 10px -3px;
+    }
+}
+
+.titre1{
+    font-size:3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:100px;
+    color: red;
+}
+
+@media screen and (max-width:414px) 
+{
+    .titre1{
+        font-size: 1.5rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight:100px;
+        color: rgb(78, 168, 150);
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1000px) 
+{
+    .titre1{
+        font-size: 2rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight:100px;
+        color: rgb(11, 76, 0);
+    }
+}
+
+
+.titre2{
+    font-size: 12px;
+    font-weight:200px;
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media screen and (max-width:414px) 
+{
+    .titre2{
+        font-size: 6px;
+        font-weight:200px;
+        color: rgb(12, 207, 77);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+@media screen and (min-width:400px) and (max-width:1000px) 
+{
+    .titre2{
+        font-size: 4px;
+        font-weight:200px;
+        color: rgb(112, 201, 246);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+.titre3{
+    font-size: 1rem;
+    color:purple;
+    font-weight: 700px;
+}
+
+@media screen and (max-width:414px) {
+    .titre3{
+        font-size: 0.5rem;
+        color:rgb(0, 92, 128);
+        font-weight: 700px;
+    }
+    }
+
+@media screen and (min-width:400px) and (max-width:1000px) 
+{
+    .titre3{
+        font-size: 0.75rem;
+        color:rgb(11, 199, 17);
+        font-weight: 700px;
+        }
+    }
+
+.test1{
+    font-size: 1.5rem;
+    color: orange;
+}
+
+@media screen and (max-width:414px) {
+    .test1{
+        font-size: 0.5rem;
+        font-size: small;
+        color: rgb(116, 3, 255);
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1000px)
+{
+    .test1{
+        font-size: 1rem;
+        font-size: small;
+        color: rgb(247, 86, 11);
+    }
+}
+
+.test2{
+    font-size: 1.5rem;
+    color: rgb(0, 255, 195);
+}
+
+@media screen and (max-width:414px) {
+    .test2{
+        font-size: 0.5rem;
+        font-size: small;
+        color: rgb(149, 179, 42);
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1000px)
+{
+    .test2{
+        font-size: 1rem;
+        font-size: small;
+        color: rgb(60, 12, 216);
+    }
+}
+
+
+.nom1{
+    font-weight: bold;
+    color: rgb(29, 46, 177);
+}
+
+@media screen and (max-width:414px) {
+    .nom1{
+        font-size: 0.5rem;
+        font-size: small;
+        color: rgb(19, 142, 166);
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1000px) {
+    .nom1{
+        font-size: 0.75rem;
+        font-size: small;
+        color: rgb(26, 204, 53);
+    }
+}
+
+
+.nom2{
+    font-weight: bold;
+    color: rgb(118, 177, 29);
+}
+
+@media screen and (max-width:414px) {
+    .nom2{
+        font-size: 0.5rem;
+        font-size: small;
+        color: rgb(42, 174, 179);
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1000px) {
+    .nom2{
+        font-size: 0.75rem;
+        font-size: small;
+        color: rgb(104, 42, 179);
+    }
+}
+
